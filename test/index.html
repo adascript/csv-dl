@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>let's do some shit</h1>
+
+    <script src="../script.js"></script>
+    <script>
+        const dogs = [
+            {
+                name: 'murphy',
+                species: 'doggo',
+                size: 'smol',
+                bonez: 4,
+            },
+            {
+                name: 'maya',
+                species: 'doggo',
+                size: 'beeg-smol',
+                bonez: 7,
+            },
+        ];
+
+        jsonToCsvFile(JSON.stringify(dogs));
+    </script>
+</body>
+</html>
